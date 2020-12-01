@@ -1,0 +1,30 @@
+.top {
+  padding:25px;
+}
+
+.lincoln {
+  padding-left:45%
+}
+
+.washington {
+  padding:5%;
+  background-image:image(img/horoscope.jpg);
+}
+
+.nixon {
+  padding:5%;
+}
+
+.kennedy {
+  padding:5%;
+}
+/* Footer */
+
+footer {
+  background:#444;
+  padding:30px;
+}
+
+.cc {
+  padding-top:25px;
+}
