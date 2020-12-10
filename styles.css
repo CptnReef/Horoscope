@@ -1,3 +1,34 @@
+body {
+  background-color: rgb(242, 250, 246);
+  font-family: sans-serif;
+}
+
+.mdle {
+  padding-top: 25px;
+}
+
+.jefferson {
+  background-image: url(img/backdrop.gif);
+  background-repeat: no-repeat;
+  background-color: rgb(217, 255, 191);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  padding:30px;
+}
+
+.thomas {
+  padding-right: 10px;
+  padding-top:25px;
+}
+
+.cards-set {
+  background-image: url(img/bg-soup.gif);
+}
+
+.peek {
+  padding-right:12px ;
+}
+
 .top {
   padding:25px;
 }
@@ -8,7 +39,6 @@
 
 .washington {
   padding:5%;
-  background-image:image(img/horoscope.jpg);
 }
 
 .nixon {
@@ -18,7 +48,6 @@
 .kennedy {
   padding:5%;
 }
-/* Footer */
 
 footer {
   background:#444;
