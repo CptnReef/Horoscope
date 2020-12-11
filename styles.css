@@ -2,14 +2,10 @@ body {
   background-color: rgb(242, 250, 246);
   background-image: url(img/background2.jpeg);
   background-size: cover;
-
+  padding: 9px;
   font-family: sans-serif;
 }
 
-.controll {
-  font-size: 45px;
-  padding-left: 50px;
-}
 .mdle {
   padding-top: 25px;
 }
