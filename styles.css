@@ -6,6 +6,10 @@ body {
   font-family: sans-serif;
 }
 
+.controll {
+  font-size: 45px;
+  padding-left: 50px;
+}
 .mdle {
   padding-top: 25px;
 }
@@ -19,8 +23,12 @@ body {
   padding:30px;
 }
 
+.maxie {
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
 .thomas {
-  padding-right: 10px;
   padding-top:25px;
 }
 
@@ -48,8 +56,15 @@ body {
   padding:5%;
 }
 
+.john {
+  margin:5%;
+  padding:5%;
+  padding-top: 100px;
+}
+
 .kennedy {
   padding:5%;
+  padding-right: 150px;
 }
 
 footer {
