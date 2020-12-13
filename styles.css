@@ -24,8 +24,7 @@ body {
 }
 
 .maxie {
-  padding-top: 30px;
-  padding-right: 100px;
+  padding: 20px;
 }
 
 .thomas {
@@ -64,7 +63,7 @@ body {
 }
 
 footer {
-  background:#444;
+  background:darkgreen;
   padding:30px;
 }
 
