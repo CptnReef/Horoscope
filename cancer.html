@@ -10,36 +10,117 @@
     <title>Astrology Soup</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container top">
+    <nav class="navbar navbar-light bg-success d-flex align-items-between lincoln">
+      <nav>
+        <div>
           <div>
-            <a href="#">
-              <img src="img/soup.jpg" alt="Astrology Soup Logo" class="rounded mx-auto d-block" width="50" height="60">
-            </a>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav d-flex justify-content-between" style="width:56%">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+            <ul class="row mr-auto row ">
+              <li class="nav-item d-flex mr-auto active">
+                <a href="pageOne.html">
+                  <img src="img/soup.jpg" alt="Astrology Soup Logo" class="rounded mx-auto d-block" width="40" height="50">
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">The Soup Speaks!</a>
+              <li class="nav-item d-flex mr-auto active p-2">
+                <a class="nav-link text-light" href="pageOne.html">
+                  Home <span class="sr-only">(current)</span>
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
-    <nav class="navbar navbar-expand-lg  navbar-light bg-success float-xs-right">
-      <div class="row lincoln text-light">
-        <div class="col-md-4">
-          <ul class="navbar-nav mx-auto justify-content-center">
-            <li class="col nav-item dropdown">Astrology</li>
-          </ul>
+      
+      <nav class="justify-content-center">
+        <div class="text-light">
+          <div class="">
+            <ul class="row mr-auto">
+              <li class="nav-item d-flex active">
+                <a class="nav-link text-light" href="index.html">Stare Deep Into The Soup</a>
+              </li>
+              <li class="nav-item d-flex dropdown active">
+                <div class="dropdown bg-success">
+                  <button class="btn bg-success text-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Architype
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Warrior</a>
+                    <a class="dropdown-item" href="#">King</a>
+                    <a class="dropdown-item" href="#">Magician</a>
+                    <a class="dropdown-item" href="#">Lover</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-flex dropdown">
+                <div class="dropdown">
+                  <button class="btn bg-success text-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Astrology
+                  </button>
+                  <div class="dropdown-menu text-center row" aria-labelledby="dropdownMenuButton">
+                    <a href="aquarius.htmlcol">Aquarius</a>
+                    <a href="aries.html"><br>Aries</a>
+                    <a href="cancer.html"><br>Cancer</a>
+                    <a href="capricorn.html"><br>Capricorn</a>
+                    <a href="gemini.html"><br>Gemini</a>
+                    <a href="leo.html"><br>Leo </a>
+                    <a href="libra.html"><br>Libra</a>
+                    <a href="pisces.html"><br>Pisces</a>
+                    <a href="sagittarius.html"><br>Sagittarius</a>
+                    <a href="scorpio.html"><br>Scorpio</a>
+                    <a href="tauros.html"><br>Tauros</a>
+                    <a href="virgo.html"><br>Virgo</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-flex dropdown">
+                <div class="dropdown">
+                  <button class="btn bg-success text-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-flex dropdown">
+                <div class="dropdown">
+                  <button class="btn bg-success text-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contact
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </li>
+            </nav>
+            <nav>
+              <li class="nav-item d-flex moral">
+                <button type="button" class="btn btn-sm btn-success" data-toggle="popover" title="Popover title" data-content="search...">
+                  <svg class="nav-item d-flex" xmlns="http://www.w3.org/2000/svg" viewBox="0 12 24 9" fill="white" width="24" height="30"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </button>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="popover" title="Popover title" data-content="search...">
+                  <svg class="nav-item d-flex" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 12 24 9" fill="white" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z"/></svg>
+                </button>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="popover" title="Popover title" data-content="search...">
+                  <svg class="nav-item d-flex" xmlns="http://www.w3.org/2000/svg" enable-background=" 0 12 24 9" fill="white" height="30" viewBox="0 12 24 9" width="24"><rect fill="none" height="30" width="24"/><path d="M19,5h-2V3H7v2H5C3.9,5,3,5.9,3,7v1c0,2.55,1.92,4.63,4.39,4.94c0.63,1.5,1.98,2.63,3.61,2.96V19H7v2h10v-2h-4v-3.1 c1.63-0.33,2.98-1.46,3.61-2.96C19.08,12.63,21,10.55,21,8V7C21,5.9,20.1,5,19,5z M5,8V7h2v3.82C5.84,10.4,5,9.3,5,8z M19,8 c0,1.3-0.84,2.4-2,2.82V7h2V8z"/></svg>
+                </button>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="popover" title="Popover title" data-content="search...">
+                  <svg class="nav-item d-flex" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 12 24 9" fill="white" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </nav>
-
+  
+    <div>
+      <span class="oi" data-glyph="magnifying-glass"></span>
+    </div>
+  
     <div class="container-fluid washington text-center" style="background-image: url('img/zodiacs/icancer.jpeg'); background-attachment: fixed; background-size: cover;">
       <div class=""></div>
       <div class="row">
