@@ -1,0 +1,19 @@
+{
+  "name": "horoscope",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"\" rel=\"noopener\">\r  <img width=200px height=200px src=\"img/logo/Horoscope.jpg\" alt=\"Bot logo\"></a>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CptnReef/Horoscope.git"
+  },
+  "author": "cptnreef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CptnReef/Horoscope/issues"
+  },
+  "homepage": "https://github.com/CptnReef/Horoscope#readme"
+}
